@@ -1,0 +1,46 @@
+.heading{
+    margin-left: px;
+
+}
+.forms{
+    margin:50px;
+
+}
+.email{
+    
+   border:0;
+   border-bottom: 2px solid blue ;
+   width:150px;
+   height: 30px;
+}
+.password{
+    border:0;
+    border-bottom: 2px solid blue;
+    width:150px;
+    height: 30px;
+}
+.submit{
+    margin:10px;
+    border:0;
+    border-bottom: blue;
+    width:100px;
+    height: 40px;
+    margin-top: 10px;
+}
+.container{
+    border:0;
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+
+    background-color:aliceblue;
+    
+    width:400px;
+   
+    
+    
+    margin: 20px auto;
+    padding:20px;
+
+
+
+}

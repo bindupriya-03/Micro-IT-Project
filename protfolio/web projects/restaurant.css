@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.restaurant-cards{
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+        background-color: #f5e8e8;
+}
+.restaurant-card:hover{
+     color: #f5e8e8;
+     background-color: rgb(219, 244, 245);
+      cursor: pointer;
+      transform: scale(0.8);
+}
+.restaurant-card{
+    width:350px;
+    border-radius: 10px;
+    transition: transform 10s ease 2s;
+}
+.restaurant-image{
+    position: relative;
+}
+.restaurant-image .discount{
+      position: absolute;
+      bottom: 10px;
+      left:5px ;
+      background-color: red;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+}
+.restaurant-image img{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 10px 10px 40px rgba(128,128,128,0.4);
+    
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin:5px 0;
+}
+.restaurant-details{
+    padding: 10px;
+    color:#696969;
+}
+.rating{
+    background-color: green;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px;
+    border-radius:5px ;
+    text-align: center;
+}
+.restaurant-name{
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+
+}
